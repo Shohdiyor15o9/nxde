@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                },
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-800 text-white py-[5%]">
+    <section class="container flex flex-col sm:flex-row justify-between">
+        <div class="w-[45%] text-4xl sm:text-5xl flex items-center flex-row">
+            <img class="" src="/pho/IMTNVWPDdYPcQq2cPvU-B-transformed.webp" alt="photo">
+            <h1>Hi I'm Shohdiyor Shirinboyev</h1>
+        </div>
+        <div class="sm:w-[45%]">
+            <a href="/me.html"><div class="mb-[20px] h-[100px] sm:h-[30%] bg-gray-900 rounded-t-full flex justify-center items-center text-4xl border-2 border-solid border-transparent hover:border-blue-900">About Me</div></a>
+            <div class="mb-[20px] h-[100px] sm:h-[30%] bg-gray-900 flex justify-center text-4xl border-2 border-solid border-transparent hover:border-blue-900 flex-col"><p class="ml-[35%] sm:ml-[37%]">My Skills</p><hr class="my-[1%] sm:my-[3%]"><p class="ml-[5%] sm:ml-[10%] text-3xl sm:text-4xl">html;css;tailwind;react;js:ts:</p></div>
+            <a href="/project.html"><div class="mb-[20px] h-[100px] sm:h-[30%] bg-gray-900 rounded-b-full flex justify-center items-center text-4xl border-2 border-solid border-transparent hover:border-blue-900">My Projects</div></a>
+        </div>
+    </section>
+</body>
+
+</html>

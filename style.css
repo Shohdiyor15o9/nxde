@@ -1,0 +1,6 @@
+*{
+    scroll-behavior: smooth;
+}
+.round{
+    border-top-right-radius: 50px;
+}
